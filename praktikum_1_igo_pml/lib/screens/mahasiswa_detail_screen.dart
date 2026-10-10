@@ -5,7 +5,6 @@ import '../models/mahasiswa.dart';
 class MahasiswaDetailScreen extends StatelessWidget {
   final Mahasiswa mahasiswa;
   const MahasiswaDetailScreen({super.key, required this.mahasiswa});
-
   static const Color primaryNavy = Color(0xFF0A2481);
 
   @override

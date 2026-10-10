@@ -10,7 +10,7 @@ class MahasiswaRepository {
         programStudi: "Informatika",
         angkatan: 2024,
         email: "igotegar@gmail.com",
-        profileUrl: "https://i.pravatar.cc/150?img=11",
+        profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUrbs0cqbTBobZo90D-yoc70EanwiRbpm22JlRMfKpRg&s=10",
         daftarPencapaian: [
           Pencapaian(
             id: "1",
@@ -50,12 +50,12 @@ class MahasiswaRepository {
         ],
       ),
       Mahasiswa(
-        nim: "24SA11A900",
+        nim: "24SA21A900",
         nama: "Edward Prambudhy",
         programStudi: "Sistem Informasi",
         angkatan: 2024,
         email: "edwardprambudhy@gmail.com",
-        profileUrl: "https://i.pravatar.cc/150?img=5",
+        profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUrbs0cqbTBobZo90D-yoc70EanwiRbpm22JlRMfKpRg&s=10",
         daftarPencapaian: [
           Pencapaian(
             id: "1",
@@ -100,7 +100,7 @@ class MahasiswaRepository {
         programStudi: "Teknologi Informasi",
         angkatan: 2024,
         email: "axelsanjaya@gmail.com",
-        profileUrl: "https://i.pravatar.cc/150?img=5",
+        profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUrbs0cqbTBobZo90D-yoc70EanwiRbpm22JlRMfKpRg&s=10",
         daftarPencapaian: [
           Pencapaian(
             id: "1",
@@ -140,12 +140,12 @@ class MahasiswaRepository {
         ],
       ),
       Mahasiswa(
-        nim: "24SA11A159",
+        nim: "24SA11A800",
         nama: "Indah Putri Sari",
         programStudi: "Informatika",
         angkatan: 2024,
         email: "indahputrisari@gmail.com",
-        profileUrl: "https://i.pravatar.cc/150?img=11",
+        profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Kua0ZYMt7OSb6U9g1lzJYmicAmAdChkrzstnUQtCQQ&s=10",
         daftarPencapaian: [
           Pencapaian(
             id: "1",
@@ -185,12 +185,12 @@ class MahasiswaRepository {
         ],
       ),
       Mahasiswa(
-        nim: "24SA11A900",
+        nim: "24SA21A800",
         nama: "Tina Ayu Dewi",
         programStudi: "Sistem Informasi",
         angkatan: 2024,
         email: "tinaayudewi@gmail.com",
-        profileUrl: "https://i.pravatar.cc/150?img=5",
+        profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Kua0ZYMt7OSb6U9g1lzJYmicAmAdChkrzstnUQtCQQ&s=10",
         daftarPencapaian: [
           Pencapaian(
             id: "1",
@@ -230,12 +230,12 @@ class MahasiswaRepository {
         ],
       ),
       Mahasiswa(
-        nim: "24SA31A900",
+        nim: "24SA31A800",
         nama: "Vincent Putra Pratama",
         programStudi: "Teknologi Informasi",
         angkatan: 2024,
         email: "vincentputrapratama@gmail.com",
-        profileUrl: "https://i.pravatar.cc/150?img=5",
+        profileUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUrbs0cqbTBobZo90D-yoc70EanwiRbpm22JlRMfKpRg&s=10",
         daftarPencapaian: [
           Pencapaian(
             id: "1",
