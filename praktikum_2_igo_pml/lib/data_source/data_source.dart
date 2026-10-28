@@ -1,5 +1,4 @@
 import 'dart:math';
-
 final Random _random = Random();
 
 class Nilai {

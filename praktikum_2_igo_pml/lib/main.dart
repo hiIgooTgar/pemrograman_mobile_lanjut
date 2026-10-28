@@ -30,9 +30,7 @@ class _HalamanUtamaState extends State<HalamanUtama> {
   Widget build(BuildContext context) {
     double lebarLayar = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: const Color(
-        0xFFF5F6FA,
-      ), // Background body bukan primaryNavy (warna terang netral)
+      backgroundColor: const Color(0xFFF5F6FA),
       appBar: AppBar(
         title: const Text("Latihan Responsif"),
         backgroundColor: primaryNavy,
@@ -55,11 +53,11 @@ class _HalamanUtamaState extends State<HalamanUtama> {
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.people),
-                  label: "Sistem\nInformasi",
+                  label: "Sistem Informasi",
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.people),
-                  label: "Teknologi\nInformasi",
+                  label: "Teknologi Informasi",
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.high_quality),

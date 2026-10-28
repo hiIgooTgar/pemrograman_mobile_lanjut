@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 const Color primaryNavy = Color(0xFF0A2481);
-
 List<Map<String, dynamic>> totalMahasiswa = [
   {"kategori": "Total Mahasiswa", "jumlah": 1000, "warna": Color(0xFFADC8FF)},
   {"kategori": "Informatika", "jumlah": 500, "warna": Color(0xFFADC8FF)},
