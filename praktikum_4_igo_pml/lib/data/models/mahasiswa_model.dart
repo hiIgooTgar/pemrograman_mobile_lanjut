@@ -6,6 +6,9 @@ class MahasiswaModel extends Mahasiswa {
     required super.nama,
     required super.email,
     required super.prodi,
+    required super.semester,
+    required super.nomorHp,
+    required super.alamat,
     required super.ipk,
   });
 
@@ -15,16 +18,23 @@ class MahasiswaModel extends Mahasiswa {
       nama: json["nama"].toString(),
       email: json["email"].toString(),
       prodi: json["prodi"].toString(),
+      semester: (json["semester"] as num?)?.toInt() ?? 1,
+      nomorHp: json["nomorHp"]?.toString() ?? '',
+      alamat: json["alamat"]?.toString() ?? '',
       ipk: (json["ipk"] as num).toDouble(),
     );
   }
 
+  @override
   Map<String, dynamic> toJson() {
     return {
       'nim': nim,
       'nama': nama,
       'email': email,
       'prodi': prodi,
+      'semester': semester,
+      'nomorHp': nomorHp,
+      'alamat': alamat,
       'ipk': ipk,
     };
   }
@@ -35,16 +45,23 @@ class MahasiswaModel extends Mahasiswa {
       nama: entity.nama,
       email: entity.email,
       prodi: entity.prodi,
+      semester: entity.semester,
+      nomorHp: entity.nomorHp,
+      alamat: entity.alamat,
       ipk: entity.ipk,
     );
   }
 
+  @override
   Mahasiswa toEntity() {
     return Mahasiswa(
       nim: nim,
       nama: nama,
       email: email,
       prodi: prodi,
+      semester: semester,
+      nomorHp: nomorHp,
+      alamat: alamat,
       ipk: ipk,
     );
   }

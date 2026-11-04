@@ -3,6 +3,9 @@ class Mahasiswa {
   final String nama;
   final String email;
   final String prodi;
+  final int semester;
+  final String nomorHp;
+  final String alamat;
   final double ipk;
 
   Mahasiswa({
@@ -10,6 +13,9 @@ class Mahasiswa {
     required this.nama,
     required this.email,
     required this.prodi,
+    required this.semester,
+    required this.nomorHp,
+    required this.alamat,
     required this.ipk,
   });
 
@@ -18,6 +24,9 @@ class Mahasiswa {
     String? nama,
     String? email,
     String? prodi,
+    int? semester,
+    String? nomorHp,
+    String? alamat,
     double? ipk,
   }) {
     return Mahasiswa(
@@ -25,6 +34,9 @@ class Mahasiswa {
       nama: nama ?? this.nama,
       email: email ?? this.email,
       prodi: prodi ?? this.prodi,
+      semester: semester ?? this.semester,
+      nomorHp: nomorHp ?? this.nomorHp,
+      alamat: alamat ?? this.alamat,
       ipk: ipk ?? this.ipk,
     );
   }

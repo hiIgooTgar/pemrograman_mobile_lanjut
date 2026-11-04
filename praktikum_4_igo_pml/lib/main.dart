@@ -22,6 +22,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  static const Color primaryNavy = Color(0xFF0A2481);
   final MahasiswaRepository repo;
   const MyApp({super.key, required this.repo});
   @override
@@ -29,6 +30,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Clean Architecture + BLoC',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: primaryNavy,
+          foregroundColor: Colors.white,
+        ),
+      ),
       home: BlocProvider(
         create: (_) => MahasiswaBloc(
           getAllMahasiswa: GetAllMahasiswa(repo),
