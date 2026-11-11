@@ -47,7 +47,7 @@ class MahasiswaPage extends StatelessWidget {
                   child: data.isEmpty
                       ? const Center(
                           child: Text(
-                            "Data mahasiswa tidak ditemukan.",
+                            "Data mahasiswa tidak terdata. Tekan + untuk menambahkan data.",
                             style: TextStyle(
                               color: primaryNavy,
                               fontWeight: FontWeight(500),
